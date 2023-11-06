@@ -14,11 +14,11 @@ const Navbar = async () => {
       <div className="flex-1  flex flexStart gap-10">
         <Link href={"/"}>
           <Image
-            src="/Owaisibble.png"
-            width={150}
-            height={35}
-            className="w-[120px] md:w-[150px]"
-            alt="owaisibble"
+            src='/logo.svg'
+            width={116}
+            height={43}
+            alt='logo'
+          />
           />
         </Link>
         <ul className="xl:flex hidden text-small gap-7">
