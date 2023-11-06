@@ -27,15 +27,9 @@ const Footer = () => {
     <footer className="footer flexStart ">
       <div className="flex flex-col gap-12 w-full  mx-auto max-w-screen-xl">
         <div className="flex items-start flex-col">
-          <Image
-            src="/Owaisibble-purple.png"
-            alt="owaisibble"
-            width={200}
-            height={100}
-            className="bg-transparent w-[120px] md:w-[150px]"
-          />
+            <Image src="/logo-purple.svg" width={116} height={38} alt="logo" />
           <p className=" text-start text-small font-normal max-w-xs mt-5">
-            Owaisibble is the world leading community for creatives to share,
+            Flexibble is the world leading community for creatives to share,
             grow & get hired
           </p>
         </div>
