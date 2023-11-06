@@ -19,7 +19,6 @@ const Navbar = async () => {
             height={43}
             alt='logo'
           />
-          />
         </Link>
         <ul className="xl:flex hidden text-small gap-7">
           {NavLinks.map((link) => (
