@@ -1,4 +1,4 @@
-# Next.js Owaisibble Web App
+# Next.js Web App
 
 ## Show Your Remarkable Works Here & Get Hired
 
@@ -58,5 +58,3 @@ This app has a following features
 I learned & get a lot experinece during the development of this interesting app.
 During the development I faced a lot of issues but after searching, get a lot of knowledge about frontend & backend & their connectivity. I used grafbase very first time & get a good hand on knowledge about it, I was also facing some typescript related issues but after that get a good grisp on it too.
 I learned a lot, can't tell you everything, but after the completetion of this project, I am very confident that now I can tackle MERN base proejcts & most specifically Next.js. Happy day.
-
-### Big credit goes to JSM ( JavaScript Mastery ) & Github Community
