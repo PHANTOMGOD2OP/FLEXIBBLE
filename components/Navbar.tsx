@@ -12,7 +12,7 @@ const Navbar = async () => {
   return (
     <nav className="flexBetween navbar mx-auto max-w-screen-xl">
       <div className="flex-1  flex flexStart gap-10">
-        <Link href={"/"}>
+        <Link href={'/'}>
           <Image
             src='/logo.svg'
             width={116}
