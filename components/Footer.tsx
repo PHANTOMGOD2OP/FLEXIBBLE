@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flexBetween w-full footer_copyright mx-auto max-w-screen-xl">
-        <p>@ 2023, Owaisibble, All rights are reserved</p>
+        <p>@ 2023, Flexibble, All rights are reserved</p>
         <p className="text-gray">
           <span className="text-black font-semibold">10283</span> projects
           submitted
