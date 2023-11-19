@@ -53,7 +53,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
     const file = e.target.files?.[0];
     if (!file) return;
     if (!file.type.includes("image")) {
-      return alert("Plz upload an image");
+      return alert("Please upload an image");
     }
 
     const reader = new FileReader();
