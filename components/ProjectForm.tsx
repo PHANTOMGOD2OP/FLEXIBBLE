@@ -20,7 +20,7 @@ type Props = {
 const ProjectForm = ({ type, session, project }: Props) => {
     const router = useRouter()
 
-    const [submitting, setSubmitting] = useState<boolean>(false);
+    const [isSubmitting, setisSubmitting] = useState(false);
     const [form, setForm] = useState<FormState>({
         title: project?.title || "",
         description: project?.description || "",
@@ -61,7 +61,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
     const handleFormSubmit = async (e: FormEvent) => {
         e.preventDefault();
 
-        setSubmitting(true)
+        setisSubmitting(true)
 
         const { token } = await fetchToken()
 
@@ -81,7 +81,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
         } catch (error) {
             alert(`Failed to ${type === "create" ? "create" : "edit"} a project. Try again!`);
         } finally {
-            setSubmitting(false)
+            setisSubmitting(false)
         }
     }
 
@@ -152,8 +152,8 @@ const ProjectForm = ({ type, session, project }: Props) => {
                 <Button
                     title={submitting ? `${type === "create" ? "Creating" : "Editing"}` : `${type === "create" ? "Create" : "Edit"}`}
                     type="submit"
-                    leftIcon={submitting ? "" : "/plus.svg"}
-                    submitting={submitting}
+                    leftIcon={isSubmitting ? "" : "/plus.svg"}
+                    submitting={isSubmitting}
                 />
             </div>
         </form>
