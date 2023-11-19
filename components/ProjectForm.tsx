@@ -1,3 +1,4 @@
+
 "use client"
 
 import Image from 'next/image';
@@ -153,7 +154,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
                     title={isSubmitting ? `${type === "create" ? "Creating" : "Editing"}` : `${type === "create" ? "Create" : "Edit"}`}
                     type="submit"
                     leftIcon={isSubmitting ? "" : "/plus.svg"}
-                    submitting={isSubmitting}
+                    isSubmitting={isSubmitting}
                 />
             </div>
         </form>
