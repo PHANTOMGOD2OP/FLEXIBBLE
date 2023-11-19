@@ -120,7 +120,7 @@ export const deleteProject = async (id: string, token: string) => {
   return makeGraphQLRequest(deleteProjectMutation, { id });
 };
 
-export const editProject = async (
+export const updateProject = async (
   form: ProjectForm,
   projectId: string,
   token: string
